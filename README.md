@@ -1,6 +1,6 @@
 PhD Student at KAUST (King Abdullah University of Science and Technology)
 
-mohamed.bouaziz@kaust.edu.sa | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst) | [Resume](./docs/resume.pdf)
+mohamed dot bouaziz at kaust.edu.sa | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst) | [Resume](./docs/resume.pdf)
 
 Mohamed Bouaziz is a PhD student in the Accelerated Connected Computing Lab at KAUST, working on hardware acceleration on reconfigurable spatial dataflow architectures.
 
