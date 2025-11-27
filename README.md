@@ -32,7 +32,7 @@ Tools:
 # Publications
 
 __[ISC'25] A Dataflow Overlay for Monte Carlo Multi-Asset Option Pricing on AMD Versal AI Engines__ \
-[PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL](./poster/snsl25mc.pdf) \
+[PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL](./posters/snsl25mc.pdf) \
 __M. Bouaziz__, M. Samet, and S. A. Fahmy \
 Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application.
 
@@ -42,7 +42,7 @@ __M. Bouaziz__, and S. A. Fahmy \
 Shows how PRNGs can be implemented on AMD AI Engines by combining supported operations and how to deploy the design in a dataflow model.
 
 __[IPDPSW'25] Benchmarking Floating Point Performance of Massively Parallel Dataflow Overlays on AMD Versal Compute Primitives__ \
-[PDF](./papers/pdf/ipdpsw25fp.pdf) | [Slides](./papers/slides/ipdpsw25fp.pdf) | [Poster in DATE'25, OSSMPIC workshop](./poster/date25fp.pdf) \
+[PDF](./papers/pdf/ipdpsw25fp.pdf) | [Slides](./papers/slides/ipdpsw25fp.pdf) | [Poster in DATE'25, OSSMPIC workshop](./posters/date25fp.pdf) \
 __M. Bouaziz__, and S. A. Fahmy \
 Compares the performance and the energy efficiency of floating-point units on AMD Versal (AI Engines v.s. DSP58 blocks) and highlights the challenges for implementing massive designs of FP32 operations on the same architecture.
 
@@ -52,7 +52,7 @@ R. Agrawal, K. Ahuja, D. Maheshwari, M. U. Shaikh, __M. Bouaziz__, and A. Kumar 
 Implements parallel FPGA routing based on VTR/VPR 7 and leveraging Lagrangian Relaxation numerical method for routability.
 
 __[ASAP'24 (PhD Forum Paper)] Leveraging MLIR for Efficient Irregular-Shaped CGRA Overlay Design__ \
-[PDF](./papers/pdf/asap24cgraoverlay.pdf) | [Poster](./poster/asap24cgraoverlay.pdf) \
+[PDF](./papers/pdf/asap24cgraoverlay.pdf) | [Poster](./posters/asap24cgraoverlay.pdf) \
 __M. Bouaziz__, and S. A. Fahmy \
 Proposes leveraging MLIR compiler infrastructure to analyze irregularities in HPC/AI workloads and optimise the CGRA/dataflow architectures accordingly (performance & energy).
 
