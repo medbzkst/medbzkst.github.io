@@ -4,7 +4,9 @@ PhD Student at KAUST (King Abdullah University of Science and Technology)
 
 Mohamed Bouaziz is a [PhD student in the Accelerated Connected Computing Lab](https://cemse.kaust.edu.sa/profiles/mohamed-bouaziz) at KAUST, working on hardware acceleration on reconfigurable spatial dataflow architectures.
 
-Mohamed is open to internship opportunities in building __compilers__ and __custom spatial dataflow__ architectures for HPC and AI.
+Mohamed is open to internship opportunities in building __compilers__ and __custom spatial dataflow__ architectures for __HPC__ and __AI__.
+
+__Keywords: Dataflow, Custom architecture, CGRA, FPGA, Reconfigurable Computing, DSP blocks, MLIR/LLVM, Polyhedral Optimization, AMD Versal, AMD AI Engines, XDNA, HLS__
 
 # Skills
 Programming Languages:
@@ -34,27 +36,27 @@ Tools:
 __[ISC'25] A Dataflow Overlay for Monte Carlo Multi-Asset Option Pricing on AMD Versal AI Engines__ \
 [PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL'25](./posters/snsl25mc.pdf) \
 __M. Bouaziz__, M. Samet, and S. A. Fahmy \
-Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application. Demonstrates 25x speedup over [Vitis Quant. Finance lib.](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vitis/vitis-libraries/vitis-finance.html) on AMD FPGAs, 13x over 128 parallel CPU threads, and 1.8x energy efficiency over GPU implementation.
+Proposes a dataflow design to run Monte Carlo simulations on __AMD AI Engines__ for a financial application. Demonstrates 25x _speedup_ over [Vitis Quant. Finance lib.](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vitis/vitis-libraries/vitis-finance.html) on AMD FPGAs, 13x over 128 parallel CPU threads, and 1.8x energy efficiency over GPU implementation.
 
 __[IPDPSW'25] PRNGine: Massively Parallel Pseudo-Random Number Generation and Probability Distribution Approximations on AMD AI Engines__ \
 [PDF](./papers/pdf/ipdpsw25prng.pdf) | [Slides](./papers/slides/ipdpsw25prng.pdf) \
 __M. Bouaziz__, and S. A. Fahmy \
-Shows how PRNGs can be implemented on AMD AI Engines by combining supported operations and how to deploy the design in a dataflow model.
+Shows how __PRNGs__ can be implemented on __AMD AI Engines__ by combining supported operations and how to deploy the design in a __dataflow__ model.
 
 __[IPDPSW'25] Benchmarking Floating Point Performance of Massively Parallel Dataflow Overlays on AMD Versal Compute Primitives__ \
 [PDF](./papers/pdf/ipdpsw25fp.pdf) | [Slides](./papers/slides/ipdpsw25fp.pdf) | [Poster in DATE'25, OSSMPIC workshop](./posters/date25fp.pdf) \
 __M. Bouaziz__, and S. A. Fahmy \
-Compares the performance and the energy efficiency of floating-point units on AMD Versal (AI Engines v.s. DSP58 blocks) and highlights the challenges for implementing massive designs of FP32 operations on the same architecture.
+Compares the performance and the energy efficiency of floating-point units on __AMD Versal__ (__AI Engines__ v.s. __DSP58 blocks__) and highlights the challenges for implementing massive designs of __FP32 operations__ on the same architecture.
 
 __[IEEE Access'23] Parallel FPGA routers with lagrange relaxation__ \
 [Link (Open Access)](https://doi.org/10.1109/ACCESS.2023.3328769) \
 R. Agrawal, K. Ahuja, D. Maheshwari, M. U. Shaikh, __M. Bouaziz__, and A. Kumar \
-Implements parallel FPGA routing based on VTR/VPR 7 and leveraging Lagrangian Relaxation numerical method for routability.
+Implements parallel __FPGA routing__ based on __VTR/VPR 7__ and leveraging Lagrangian Relaxation numerical method for routability.
 
 __[ASAP'24 (PhD Forum Paper)] Leveraging MLIR for Efficient Irregular-Shaped CGRA Overlay Design__ \
 [PDF](./papers/pdf/asap24cgraoverlay.pdf) | [Poster](./posters/asap24cgraoverlay.pdf) \
 __M. Bouaziz__, and S. A. Fahmy \
-Proposes leveraging MLIR compiler infrastructure to analyze irregularities in HPC/AI workloads and optimise the CGRA/dataflow architectures accordingly (performance & energy).
+Proposes leveraging __MLIR__ compiler infrastructure to analyze irregularities in HPC/AI workloads and optimise the __CGRA/dataflow__ architectures accordingly (performance & energy).
 
 # Teaching
 - Official Teaching Assistant:
@@ -71,8 +73,11 @@ Proposes leveraging MLIR compiler infrastructure to analyze irregularities in HP
     Gave lectures about digital design, FPGA architecture, RISC-V architecture, and Verilog coding to a group of enthusiastic students from [Ecole Polytechnique de Tunisie](https://ept.tn/) (where I did my MEng.).
 
 # Mentoring
-- [Summer'24] SSI (Saudi Summer Intership: BS/MS students in top USA universities funded by the Saudi government) summer intership mentoring for students from Purdue University.
-- [Summer'22,23] KGSP (KAUST Gifted Student Program: BS students in top USA universities funded by KAUST) summer internships mentoring for students from the University of Washington and University of Illinois Urbana-Champaign.
+- __Saudi Summer Internship (BS/MS students in top USA universities funded by the Saudi government) summer internship mentor__ 
+  - [Summer'24] One MSc student from Purdue University who worked on an __RTL systolic matrix multiply__ using the native __FP32 operation__ support of the __AMD Versal DSP58__ blocks. __[This work ranked 3rd best internship of Summer'24.]__
+- __KAUST Gifted Student Program (BS students in top USA universities funded by KAUST) summer internships mentor__ 
+  - [Summer'23] Two BSc students from the University of Illinois Urbana-Champaign who worked on building RTL designs of arbitrarily sized __FP32 multipliers__ using __AMD Versal DSP58__ blocks. 
+  - [Summer'22] Two BSc students from the University of Washington who worked on extending __[OpenCGRA](https://github.com/pnnl/OpenCGRA)__ to support more __interconnect topologies__. 
 - Actively mentoring new joiners and students undergoing their MS thesis in our research lab.
 
 # GitHub Projects
