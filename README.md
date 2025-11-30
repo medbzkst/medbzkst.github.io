@@ -1,6 +1,6 @@
 PhD Student at KAUST (King Abdullah University of Science and Technology)
 
-[mohamed.bouaziz@kaust.edu.sa](mailto:mohamed.bouaziz@kaust.edu.sa) | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst) | [Resume](./docs/resume.pdf)
+[mohamed.bouaziz@kaust.edu.sa](mailto:mohamed.bouaziz@kaust.edu.sa) | [Resume](./docs/resume.pdf) | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst)
 
 Mohamed Bouaziz is a [PhD student in the Accelerated Connected Computing Lab](https://cemse.kaust.edu.sa/profiles/mohamed-bouaziz) at KAUST, working on hardware acceleration on reconfigurable spatial dataflow architectures.
 
@@ -16,7 +16,7 @@ Programming Languages:
 Frameworks:
 - High-Level Synthesis (HLS)
 - MLIR/LLVM compiler infrastructure
-- AMD AIE API
+- AMD AI Engines API
 - CUDA
 - OpenMP
 - OpenMPI
@@ -32,9 +32,9 @@ Tools:
 # Publications
 
 __[ISC'25] A Dataflow Overlay for Monte Carlo Multi-Asset Option Pricing on AMD Versal AI Engines__ \
-[PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL](./posters/snsl25mc.pdf) \
+[PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL'25](./posters/snsl25mc.pdf) \
 __M. Bouaziz__, M. Samet, and S. A. Fahmy \
-Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application. Demonstrates 25x speedup over Vitis Quant. Finance lib. on AMD FPGAs, 13x over 128 parallel CPU threads, and 1.8x energy efficiency over GPU implementation.
+Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application. Demonstrates 25x speedup over [Vitis Quant. Finance lib.](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vitis/vitis-libraries/vitis-finance.html) on AMD FPGAs, 13x over 128 parallel CPU threads, and 1.8x energy efficiency over GPU implementation.
 
 __[IPDPSW'25] PRNGine: Massively Parallel Pseudo-Random Number Generation and Probability Distribution Approximations on AMD AI Engines__ \
 [PDF](./papers/pdf/ipdpsw25prng.pdf) | [Slides](./papers/slides/ipdpsw25prng.pdf) \
