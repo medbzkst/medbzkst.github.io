@@ -1,21 +1,21 @@
 PhD Student at KAUST (King Abdullah University of Science and Technology)
 
-mohamed dot bouaziz at kaust.edu.sa | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst) | [Resume](./docs/resume.pdf)
+[mohamed.bouaziz@kaust.edu.sa](mailto:mohamed.bouaziz@kaust.edu.sa) | [LinkedIn](https://www.linkedin.com/in/mohamed-bouaziz/) | [GitHub](https://github.com/medbzkst) | [Resume](./docs/resume.pdf)
 
-Mohamed Bouaziz is a PhD student in the Accelerated Connected Computing Lab at KAUST, working on hardware acceleration on reconfigurable spatial dataflow architectures.
+Mohamed Bouaziz is a [PhD student in the Accelerated Connected Computing Lab](https://cemse.kaust.edu.sa/profiles/mohamed-bouaziz) at KAUST, working on hardware acceleration on reconfigurable spatial dataflow architectures.
 
-Mohamed is open to internship opportunities in the industry focused on building compilers and custom spatial dataflow architectures for HPC/AI applications.
+Mohamed is open to internship opportunities in building __compilers__ and __custom spatial dataflow__ architectures for HPC and AI.
 
 # Skills
 Programming Languages:
 - C/C++ (preferred, advanced)
 - Python (advanced)
-- Verilog/SystemVerilog (proficient)
 - MLIR (proficient)
+- Verilog/SystemVerilog (proficient)
 
 Frameworks:
 - High-Level Synthesis (HLS)
-- MLIR compiler infrastructure
+- MLIR/LLVM compiler infrastructure
 - AMD AIE API
 - CUDA
 - OpenMP
@@ -23,9 +23,9 @@ Frameworks:
 - Numpy, Cupy
 
 Tools:
-- Vivado/Vitis
+- Vivado, Vitis
 - Vitis Analyzer
-- Polygeist/Clang
+- Polygeist, Clang
 - Gprof
 - GitHub
 
@@ -34,7 +34,7 @@ Tools:
 __[ISC'25] A Dataflow Overlay for Monte Carlo Multi-Asset Option Pricing on AMD Versal AI Engines__ \
 [PDF](./papers/pdf/isc25mc.pdf) | [Slides](./papers/slides/isc25mc.pdf) | [Poster in SNSL](./posters/snsl25mc.pdf) \
 __M. Bouaziz__, M. Samet, and S. A. Fahmy \
-Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application.
+Proposes a dataflow design to run Monte Carlo simulations on AMD AI Engines for a financial application. Demonstrates 25x speedup over Vitis Quant. Finance lib. on AMD FPGAs, 13x over 128 parallel CPU threads, and 1.8x energy efficiency over GPU implementation.
 
 __[IPDPSW'25] PRNGine: Massively Parallel Pseudo-Random Number Generation and Probability Distribution Approximations on AMD AI Engines__ \
 [PDF](./papers/pdf/ipdpsw25prng.pdf) | [Slides](./papers/slides/ipdpsw25prng.pdf) \
@@ -71,10 +71,9 @@ Proposes leveraging MLIR compiler infrastructure to analyze irregularities in HP
     Gave lectures about digital design, FPGA architecture, RISC-V architecture, and Verilog coding to a group of enthusiastic students from [Ecole Polytechnique de Tunisie](https://ept.tn/) (where I did my MEng.).
 
 # Mentoring
-- Official Mentoring:
-  - [Summer'24] SSI (Saudi Summer Intership: BS/MS students in top USA universities funded by the Saudi government) summer intership mentoring for students from Purdue University.
-  - [Summer'22,23] KGSP (KAUST Gifted Student Program: BS students in top USA universities funded by KAUST) summer internships mentoring for students from the University of Washington and University of Illinois Urbana-Champaign.
-  - Actively mentoring new joiners and students undergoing their MS thesis in our research lab.
+- [Summer'24] SSI (Saudi Summer Intership: BS/MS students in top USA universities funded by the Saudi government) summer intership mentoring for students from Purdue University.
+- [Summer'22,23] KGSP (KAUST Gifted Student Program: BS students in top USA universities funded by KAUST) summer internships mentoring for students from the University of Washington and University of Illinois Urbana-Champaign.
+- Actively mentoring new joiners and students undergoing their MS thesis in our research lab.
 
 # GitHub Projects
 - [accl-kaust/mc-option-pricing-aie](https://github.com/accl-kaust/mc-option-pricing-aie) (owner)\
